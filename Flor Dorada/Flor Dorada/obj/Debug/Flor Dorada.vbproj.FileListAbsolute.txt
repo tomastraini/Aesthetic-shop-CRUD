@@ -1,0 +1,57 @@
+C:\Users\locos\AppData\Local\Temporary Projects\Flor Dorada\bin\Debug\Flor Dorada.exe.config
+D:\Flor dorada\Flor Dorada\Flor Dorada\bin\Debug\Flor Dorada.exe.config
+D:\Flor dorada\Flor Dorada\Flor Dorada\bin\Debug\Flor Dorada.exe
+D:\Flor dorada\Flor Dorada\Flor Dorada\bin\Debug\Flor Dorada.pdb
+D:\Flor dorada\Flor Dorada\Flor Dorada\bin\Debug\Flor Dorada.xml
+D:\Flor dorada\Flor Dorada\Flor Dorada\obj\Debug\Flor Dorada.vbprojResolveAssemblyReference.cache
+D:\Flor dorada\Flor Dorada\Flor Dorada\obj\Debug\Flor_Dorada.frmABMClientes.resources
+D:\Flor dorada\Flor Dorada\Flor Dorada\obj\Debug\Flor_Dorada.frmLogin.resources
+D:\Flor dorada\Flor Dorada\Flor Dorada\obj\Debug\Flor_Dorada.frmLoginUS.resources
+D:\Flor dorada\Flor Dorada\Flor Dorada\obj\Debug\Flor_Dorada.frmMenu.resources
+D:\Flor dorada\Flor Dorada\Flor Dorada\obj\Debug\Flor_Dorada.frmUsuarios.resources
+D:\Flor dorada\Flor Dorada\Flor Dorada\obj\Debug\Flor_Dorada.Resources.resources
+D:\Flor dorada\Flor Dorada\Flor Dorada\obj\Debug\Flor Dorada.vbproj.GenerateResource.Cache
+D:\Flor dorada\Flor Dorada\Flor Dorada\obj\Debug\Flor Dorada.exe
+D:\Flor dorada\Flor Dorada\Flor Dorada\obj\Debug\Flor Dorada.xml
+D:\Flor dorada\Flor Dorada\Flor Dorada\obj\Debug\Flor Dorada.pdb
+D:\Flor dorada\Flor Dorada\Flor Dorada\obj\Debug\Flor_Dorada.frmFichaMedica.resources
+D:\Flor dorada\Flor Dorada\bin\Debug\Flor Dorada.exe.config
+D:\Flor dorada\Flor Dorada\obj\Debug\Flor Dorada.exe
+D:\Flor dorada\Flor Dorada\obj\Debug\Flor Dorada.xml
+D:\Flor dorada\Flor Dorada\obj\Debug\Flor Dorada.pdb
+D:\Flor dorada\Flor Dorada\bin\Debug\Flor Dorada.exe
+D:\Flor dorada\Flor Dorada\bin\Debug\Flor Dorada.pdb
+D:\Flor dorada\Flor Dorada\bin\Debug\Flor Dorada.xml
+D:\Flor dorada\Flor Dorada\obj\Debug\Flor Dorada.vbprojResolveAssemblyReference.cache
+D:\Flor dorada\Flor Dorada\obj\Debug\Flor_Dorada.frmABMClientes.resources
+D:\Flor dorada\Flor Dorada\obj\Debug\Flor_Dorada.frmFichaMedica.resources
+D:\Flor dorada\Flor Dorada\obj\Debug\Flor_Dorada.frmLogin.resources
+D:\Flor dorada\Flor Dorada\obj\Debug\Flor_Dorada.frmLoginUS.resources
+D:\Flor dorada\Flor Dorada\obj\Debug\Flor_Dorada.frmMenu.resources
+D:\Flor dorada\Flor Dorada\obj\Debug\Flor_Dorada.frmUsuarios.resources
+D:\Flor dorada\Flor Dorada\obj\Debug\Flor_Dorada.Resources.resources
+D:\Flor dorada\Flor Dorada\obj\Debug\Flor Dorada.vbproj.GenerateResource.Cache
+D:\Flor dorada\Flor Dorada\obj\Debug\Flor_Dorada.frmFichaClientes.resources
+D:\Flor dorada\Flor Dorada\obj\Debug\Flor_Dorada.frmHabitos.resources
+D:\Flor dorada\Flor Dorada\bin\Debug\Flor Dorada.exe.manifest
+D:\Flor dorada\Flor Dorada\bin\Debug\Flor Dorada.application
+D:\Flor dorada\Flor Dorada\obj\Debug\Flor Dorada.exe.manifest
+D:\Flor dorada\Flor Dorada\obj\Debug\Flor Dorada.application
+D:\Flor dorada\Flor Dorada\obj\Debug\Flor_Dorada.Cargar_consulta.resources
+D:\Flor dorada\Flor Dorada\obj\Debug\Flor_Dorada.frmConsultaCli.resources
+D:\Flor dorada\Flor Dorada\obj\Debug\Flor_Dorada.FrmConsultaVisor.resources
+D:\Flor dorada\Flor Dorada\obj\Debug\Flor_Dorada.frmTratamientos.resources
+D:\Flor dorada\Flor Dorada\obj\Debug\Flor_Dorada.frmTratamientosClientes.resources
+D:\Flor dorada\Flor Dorada\obj\Debug\Flor_Dorada.frmTrataClientesSeleccionar.resources
+D:\Flor dorada\Flor Dorada\obj\Debug\Flor_Dorada.frmTrataTrataSeleccion.resources
+D:\Flor dorada\Flor Dorada\obj\Debug\Flor_Dorada.Visor_IDTRATACLIENTE.resources
+D:\Flor dorada\Flor Dorada\obj\Debug\Flor_Dorada.frmTrataClientesSeleccionarForSearch.resources
+D:\Flor dorada\Flor Dorada\obj\Debug\Flor_Dorada.frmAgregarTurno.resources
+D:\Flor dorada\Flor Dorada\obj\Debug\Flor_Dorada.frmBuscarTurno.resources
+D:\Flor dorada\Flor Dorada\obj\Debug\Flor_Dorada.frmBuscarTrataTurno.resources
+D:\Flor dorada\Flor Dorada\obj\Debug\Flor_Dorada.frmAgregarProductos.resources
+D:\Flor dorada\Flor Dorada\obj\Debug\Flor_Dorada.frmBuscarProductos.resources
+D:\Flor dorada\Flor Dorada\obj\Debug\Flor_Dorada.frmBuscarVentasRealizadas.resources
+D:\Flor dorada\Flor Dorada\obj\Debug\Flor_Dorada.frmCargarVentaProductos.resources
+D:\Flor dorada\Flor Dorada\obj\Debug\Flor_Dorada.frmCargarVentaProductosClientes.resources
+D:\Flor dorada\Flor Dorada\obj\Debug\Flor_Dorada.frmCargarVentaProductosProductos.resources
