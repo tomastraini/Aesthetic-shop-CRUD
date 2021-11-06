@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F8FC35BC-6BBB-4264-A413-1200624AF091}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Flor_Dorada.My.MyApplication</StartupObject>
+    <RootNamespace>Flor_Dorada</RootNamespace>
+    <AssemblyName>Flor Dorada</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>D:\FD\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <TrustUrlParameters>true</TrustUrlParameters>
+    <ApplicationRevision>20</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Flor Dorada.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Flor Dorada.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>EC1BABDB882E003790A091C60E4215386A1426D8</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Flor Dorada_ClaveTemporal.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="flor_dDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>flor_dDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmAgregarProductos.Designer.vb">
+      <DependentUpon>frmAgregarProductos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAgregarProductos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAgregarTurno.Designer.vb">
+      <DependentUpon>frmAgregarTurno.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAgregarTurno.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBuscarProductos.Designer.vb">
+      <DependentUpon>frmBuscarProductos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBuscarProductos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBuscarTrataTurno.Designer.vb">
+      <DependentUpon>frmBuscarTrataTurno.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBuscarTrataTurno.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBuscarTurno.Designer.vb">
+      <DependentUpon>frmBuscarTurno.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBuscarTurno.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBuscarVentasRealizadas.Designer.vb">
+      <DependentUpon>frmBuscarVentasRealizadas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBuscarVentasRealizadas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCargarConsulta.Designer.vb">
+      <DependentUpon>frmCargarConsulta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCargarConsulta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmABMClientes.Designer.vb">
+      <DependentUpon>frmABMClientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmABMClientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCargarVentaProductos.Designer.vb">
+      <DependentUpon>frmCargarVentaProductos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCargarVentaProductos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCargarVentaProductosClientes.Designer.vb">
+      <DependentUpon>frmCargarVentaProductosClientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCargarVentaProductosClientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCargarVentaProductosProductos.Designer.vb">
+      <DependentUpon>frmCargarVentaProductosProductos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCargarVentaProductosProductos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultaCli.Designer.vb">
+      <DependentUpon>frmConsultaCli.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsultaCli.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsultaVisor.Designer.vb">
+      <DependentUpon>FrmConsultaVisor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConsultaVisor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFichaClientes.Designer.vb">
+      <DependentUpon>frmFichaClientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFichaClientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFichaMedica.Designer.vb">
+      <DependentUpon>frmFichaMedica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFichaMedica.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHabitos.Designer.vb">
+      <DependentUpon>frmHabitos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmHabitos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.designer.vb">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLoginUS.Designer.vb">
+      <DependentUpon>frmLoginUS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLoginUS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenu.designer.vb">
+      <DependentUpon>frmMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTrataClientesSeleccionar.Designer.vb">
+      <DependentUpon>frmTrataClientesSeleccionar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTrataClientesSeleccionar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTrataClientesSeleccionarForSearch.Designer.vb">
+      <DependentUpon>frmTrataClientesSeleccionarForSearch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTrataClientesSeleccionarForSearch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTratamientos.Designer.vb">
+      <DependentUpon>frmTratamientos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTratamientos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTratamientosClientes.Designer.vb">
+      <DependentUpon>frmTratamientosClientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTratamientosClientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTrataTrataSeleccion.Designer.vb">
+      <DependentUpon>frmTrataTrataSeleccion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTrataTrataSeleccion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUsuarios.Designer.vb">
+      <DependentUpon>frmUsuarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmUsuarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Visor_IDTRATACLIENTE.Designer.vb">
+      <DependentUpon>Visor_IDTRATACLIENTE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Visor_IDTRATACLIENTE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmAgregarProductos.resx">
+      <DependentUpon>frmAgregarProductos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAgregarTurno.resx">
+      <DependentUpon>frmAgregarTurno.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBuscarProductos.resx">
+      <DependentUpon>frmBuscarProductos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBuscarTrataTurno.resx">
+      <DependentUpon>frmBuscarTrataTurno.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBuscarTurno.resx">
+      <DependentUpon>frmBuscarTurno.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBuscarVentasRealizadas.resx">
+      <DependentUpon>frmBuscarVentasRealizadas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCargarConsulta.resx">
+      <DependentUpon>frmCargarConsulta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmABMClientes.resx">
+      <DependentUpon>frmABMClientes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCargarVentaProductos.resx">
+      <DependentUpon>frmCargarVentaProductos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCargarVentaProductosClientes.resx">
+      <DependentUpon>frmCargarVentaProductosClientes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCargarVentaProductosProductos.resx">
+      <DependentUpon>frmCargarVentaProductosProductos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultaCli.resx">
+      <DependentUpon>frmConsultaCli.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConsultaVisor.resx">
+      <DependentUpon>FrmConsultaVisor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFichaClientes.resx">
+      <DependentUpon>frmFichaClientes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFichaMedica.resx">
+      <DependentUpon>frmFichaMedica.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHabitos.resx">
+      <DependentUpon>frmHabitos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLoginUS.resx">
+      <DependentUpon>frmLoginUS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenu.resx">
+      <DependentUpon>frmMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTrataClientesSeleccionar.resx">
+      <DependentUpon>frmTrataClientesSeleccionar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTrataClientesSeleccionarForSearch.resx">
+      <DependentUpon>frmTrataClientesSeleccionarForSearch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTratamientos.resx">
+      <DependentUpon>frmTratamientos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTratamientosClientes.resx">
+      <DependentUpon>frmTratamientosClientes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTrataTrataSeleccion.resx">
+      <DependentUpon>frmTrataTrataSeleccion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUsuarios.resx">
+      <DependentUpon>frmUsuarios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visor_IDTRATACLIENTE.resx">
+      <DependentUpon>Visor_IDTRATACLIENTE.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Flor Dorada_ClaveTemporal.pfx" />
+    <None Include="flor_dDataSet.xsc">
+      <DependentUpon>flor_dDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="flor_dDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>flor_dDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="flor_dDataSet.xss">
+      <DependentUpon>flor_dDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b252ce44-f86e-4804-8249-c53eb6c4ce54.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gerberas_Stones_Spa_552366_1920x1080.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\64673.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-photo-346529.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-photo-924824.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SqlServer.Express.10.5">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2008 R2 Express</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pastel-crema-polvo-fondo-flores-dibujadas-mano_52683-41005.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wave-textured-cream-background-vector.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\forest-flora-frame-solid-color-abstract-cream-background-free-vector.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16fb21c6-5ce0-419e-8391-4fc0c40be437.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\657516_check_512x512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Graphicloads-100-Flat-2-Check-1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aha-Soft-Software-Cancel.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
