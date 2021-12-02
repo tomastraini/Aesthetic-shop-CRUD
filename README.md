@@ -9,4 +9,21 @@ This is a high-performance, simple-shortcut and easy to use program made by me t
 - Users CRUD (Counts with permissions)
 - Habits CRUD
 - Treatments CRUD
-Enjoy!
+
+# Images
+
+<b> Main menu: </b>
+
+![alt text](https://github.com/tomastraini/Aesthetic-shop-CRUD/blob/main/Images/AShop2.png?raw=true)
+
+<b> Clients CRUD: </b>
+
+![alt text](https://github.com/tomastraini/Aesthetic-shop-CRUD/blob/main/Images/AShop3.png?raw=true)
+
+<b> Medical files CRUD: </b>
+
+![alt text](https://github.com/tomastraini/Aesthetic-shop-CRUD/blob/main/Images/AShop1.png?raw=true)
+
+
+
+<b> Enjoy! </b>
